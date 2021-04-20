@@ -39,8 +39,8 @@
     <section class="media-content">
 
       <!-- Video column -->
-      <div class="col">
-        <iframe width="576" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="col col-left">
+        <iframe width="620" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3>Contributing to Open Source Part I: The Easy Way</h3>
 
         <!-- Video info -->
@@ -74,72 +74,75 @@
       <!-- Poster info -->
         <div class="poster-container">
           <div class="poster-pic">
-            <img src="" alt="">
+            <img src="/assets/photos/t_photo.png" alt="">
           </div>
           <div class="poster-info">
-            <div class="description">
+            <div class="poster-bar">
               <div class="poster-stats">
                 <h4>The Odin Project</h4>
                 <p>1.05k subscribers</p>
               </div>
-              <button class="subscribe-button">Subscribe</button>
+              <button class="subscribe-button">SUBSCRIBE</button>
             </div>
-            <p>
+            <p class="description">
               How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of
             </p>
+            <p class="expand">SHOW MORE</p>
           </div>
         </div>
       </div>
 
       <!-- Related videos column -->
-      <div class="col">
+      <div class="col col-right"
+      >
         <!-- Sorting tags -->
         <div class="tags-container">
-          <div class="tag">
-            <p>All</p>
-          </div>
-          <div class="tag">
-            <p>Git</p>
-          </div>
-          <div class="tag">
-            <p>Website</p>
-          </div>
-          <div class="tag">
-            <p>Related</p>
-          </div>
+          <button class="short" id="all"><p>All</p></button>
+          <button class="short"><p>Git</p></button>
+          <button class="long"><p>Website</p></button>
+          <button class="long"><p>Related</p></button>
         </div>
+
         <!-- List of videos-->
         <div class="related-videos-container">
           <figure class="related-video">
             <img src="/assets/photos/trombones.jpg" alt="A few trombone players intertwining their slides" class="thumbnail">
             <div class="info-container">
               <h4>Trombone players use this one WEIRD trick!</h4>
-              <p>Russ Widener</p>
+              <p>Bones Malone</p>
               <p>3.4k views - 4 years ago</p>
             </div>
           </figure>
           <figure class="related-video">
-            <img src="/assets/photos/trombones.jpg" alt="A few trombone players intertwining their slides" class="thumbnail">
+            <img src="/assets/photos/git_pic.png" alt="Git" class="thumbnail">
             <div class="info-container">
-              <h4>Trombone players use this one WEIRD trick!</h4>
-              <p>Russ Widener</p>
-              <p>3.4k views - 4 years ago</p>
+              <h4>Learn Git NOW, you fool</h4>
+              <p>Gitty with Joy</p>
+              <p>53k views - 3 years ago</p>
             </div>
           </figure>
           <figure class="related-video">
-            <img src="/assets/photos/trombones.jpg" alt="A few trombone players intertwining their slides" class="thumbnail">
+            <img src="/assets/photos/ruby_pic.png" alt="Ruby" class="thumbnail">
             <div class="info-container">
-              <h4>Trombone players use this one WEIRD trick!</h4>
-              <p>Russ Widener</p>
-              <p>3.4k views - 4 years ago</p>
+              <h4>10 reasons why Ruby is the BEST coding language</h4>
+              <p>Rubie3.0</p>
+              <p>3.0k views - 7 months ago</p>
             </div>
           </figure>
           <figure class="related-video">
-            <img src="/assets/photos/trombones.jpg" alt="A few trombone players intertwining their slides" class="thumbnail">
+            <img src="/assets/photos/odin_pic.jpg" alt="Odin" class="thumbnail">
             <div class="info-container">
-              <h4>Trombone players use this one WEIRD trick!</h4>
-              <p>Russ Widener</p>
-              <p>3.4k views - 4 years ago</p>
+              <h4>Odin was a coder: Developing History</h4>
+              <p>Coding Through Time</p>
+              <p>143k views - yesterday</p>
+            </div>
+          </figure>
+          <figure class="related-video">
+            <img src="/assets/photos/rails_logo.jpg" alt="Ruby on Rails" class="thumbnail">
+            <div class="info-container">
+              <h4>Why the Rails Guides should be a NYT bestseller</h4>
+              <p>Web Dev is Lit</p>
+              <p>999k views - 2 weeks ago</p>
             </div>
           </figure>
         </div>
